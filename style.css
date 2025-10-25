@@ -121,7 +121,8 @@ input:focus {
 }
 
 .side-navbar-link{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .side-navbar-links a{
@@ -145,7 +146,9 @@ input:focus {
     border: none;
     background: transparent;
 }
-
+#side-navbar-close{
+    cursor: pointer;
+}
 
 
 .slider{
@@ -431,10 +434,14 @@ input:focus {
     background-color: #1D232C;
     border-radius: 10px;
     border: none;
-    padding:10px
-    
+    padding:10px;
     
 
+ }
+ .news button:hover{
+    background-color: white;
+    color: #1D232C;
+    border: 1px #1D232C solid;
  }
 
 

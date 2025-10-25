@@ -34,7 +34,6 @@ body {
     padding-right: 15px;
 }
 
-/* Main Navigation Bar*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -91,7 +90,6 @@ input:focus {
     display: none;
 }
 
-/*0 to 800px */
 
 @media screen and (max-width:900px) {
 
@@ -107,7 +105,6 @@ input:focus {
 
 }
 
-/* Side Navbar */
 .side-navbar{
     position: fixed;
     top: 0;
@@ -149,7 +146,7 @@ input:focus {
     background: transparent;
 }
 
-/*Slider*/
+
 
 .slider{
     overflow: hidden;
@@ -208,7 +205,7 @@ input:focus {
    color: #1D232C;
 }
 
-/* Brands*/
+
 .brands{
     display: flex;
     margin-top: 2vw;
@@ -395,7 +392,6 @@ input:focus {
 
  }
 
- /* Scroll Animate */
 
  .initial-scroll-animate{
    
@@ -473,7 +469,6 @@ input:focus {
     display: flex;
 }
 
-/* Collections */
 
 .divide-section{
     display: flex;
@@ -492,9 +487,9 @@ input:focus {
 
 .vertical-line {
     border: none;
-    border-left: 3px solid #1D232C; /* Adjust color and width as needed */
-    height: 100%; /* Adjust height as needed */
-    margin: 0 20px; /* Adjust margin as needed */
+    border-left: 3px solid #1D232C; 
+    height: 100%; 
+    margin: 0 20px; 
     position: absolute;
     top: 0px;
     right: 0px
